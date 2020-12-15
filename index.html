@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/flavr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/animate.css">
+    <link rel="stylesheet" type="text/css" href="./css/flavr.css">
+    <audio src="./images/tt.mp3" style="display: none" autoplay="autoplay" loop="loop"></audio>
+    <style>
+        html, body{
+            margin: 0;
+            height: 100%;
+        }
+        embed{
+            display: none !important;
+        }
+        .title{
+            position: absolute;
+            left: 0;
+            right: 0;
+            text-align: center;
+            top: 3vh;
+            font-size: 16px;
+            color: #8F1109;
+            box-shadow: 2px 2px 2px #ffd700;
+        }
+        img{
+            position: absolute;
+            width: 30%;
+        }
+        img:nth-of-type(1){bottom: 30vh; left: 2vw;}
+        img:nth-of-type(2){bottom: 10vh; left: 0; right: 0; margin: 0 auto;}
+        img:nth-of-type(3){bottom: 30vh; right: 2vw;}
+    </style>
+</head>
+<body>
+<canvas id="myCanvas"></canvas>
+<div class="title">
+    <h1>WELCOME TO SISLEY'S WORLD</h1>
+    <h2>WELCOME TO SISLEY'S WORLD</h2>
+    <h3>WELCOME TO SISLEY'S WORLD</h3>
+    <h4>WELCOME TO SISLEY'S WORLD</h4>
+    <h5>WELCOME TO SISLEY'S WORLD</h5>
+</div>
+<img src="./images/IMG_4183.GIF" alt="">
+<img src="./images/IMG_4194.GIF" alt="">
+<img src="./images/IMG_4226.GIF" alt="">
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        new $.flavr('ARE YOU READY TO GO MAD?');
+    })
+</script>
+</body>
+</html>
